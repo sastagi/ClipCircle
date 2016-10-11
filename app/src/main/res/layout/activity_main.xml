@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	tools:context="com.example.santoshastagi.circleclip.MainActivity">
+
+	<Button
+		android:text="Scroll Numbers"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/button"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true" />
+
+	<com.example.santoshastagi.circleclip.NumberAnimationView
+		android:id="@+id/cvNumberAnimatedView"
+		android:layout_width="match_parent"
+		android:layout_height="290dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true">
+
+	</com.example.santoshastagi.circleclip.NumberAnimationView>
+
+	<EditText
+		android:layout_width="100dp"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:hint="Enter two digits"
+		android:maxLength="2"
+		android:ems="10"
+		android:id="@+id/editText"
+		android:layout_above="@+id/button"
+		android:layout_marginBottom="41dp"
+		android:layout_alignLeft="@+id/button"
+		android:layout_alignStart="@+id/button"
+		android:layout_alignRight="@+id/button"
+		android:layout_alignEnd="@+id/button" />
+
+</RelativeLayout>

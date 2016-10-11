@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<declare-styleable name="AnimatedCircleView">
+	<attr name="stroke_color" format="color"/>
+	<attr name="stroke_width_cv" format="float"/>
+	<attr name="fill_color" format="color"/>
+	<attr name="clockwise" format="boolean"/>
+	<attr name="animated" format="boolean"/>
+	<attr name="fill_circle" format="boolean"/>
+</declare-styleable>
+	</resources>
